@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.img-1 {
+  height: 100%;
+  background-image:
+    url(https://images.pexels.com/photos/1578115/pexels-photo-1578115.jpeg?cs=srgb&dl=beautiful-beauty-model-blond-hair-1578115.jpg&fm=jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-2 {
+  height: 100%;
+  background-image:
+    url(https://images.pexels.com/photos/1534604/pexels-photo-1534604.jpeg?cs=srgb&dl=american-car-auto-automobile-1534604.jpg&fm=jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  height: 33.33%;
+  background-color: white;
+  font-size: 30px;
+}
