@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import About from './components/About';
+import Contact from './components/Contact';
+import Header from './components/Header';
+import Projects from './components/Projects';
 import './App.css';
 
 class App extends Component {
@@ -15,12 +19,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="img-1"></div>
-        <div className="info">Scroll Up and Down this page to see the parallax scrolling effect.
-                              This div is just here to enable scrolling.
-                              Tip: Try to remove the background-attachment property to remove the scrolling effect.
-        </div>
-        <div className="img-2"></div>
+      <Header />
+      <About />
+      <Projects />
+      <Contact />
       </div>
     );
 
