@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
@@ -19,10 +20,11 @@ class App extends Component {
 
     return (
       <div className="App">
-      <Header />
-      <About />
-      <Projects />
-      <Contact />
+        <Nav />
+        <Header />
+        <About />
+        <Projects />
+        <Contact />
       </div>
     );
 
