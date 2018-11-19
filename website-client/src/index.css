@@ -30,8 +30,8 @@ body, html {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #5e5454;
+  font-size: 30px;
+  color: rgb(24, 4, 4);
   display: block;
   transition: 0.3s;
 }
@@ -50,14 +50,17 @@ body, html {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+  .sidenav {padding-top: 30%;}
   .sidenav a {font-size: 15px;}
 }
 
 @media screen and (max-width: 380px) {
   .hamnav {
-    font-size: 20px;
+    font-size: 25px;
     width: 10px;
+  }
+  .container {
+    margin: 0 0 10px 10px;
   }
 }
 
