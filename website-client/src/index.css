@@ -3,6 +3,8 @@ body, html {
   margin: 0;
 }
 
+/* ---------------------- NAV MENU STYLING BEGIN ------------------------ */
+
 .hamnav {
   width: 35px;
   font-size: 40px;
@@ -64,6 +66,14 @@ body, html {
   }
 }
 
+/* -------------------------- NAV MENU STYLING END ----------------------- */
+
+
+
+
+
+/* ------------------------- PARALLAX SCROLL STYLING BEGIN ---------------- */
+
 .parallax {
   height: 100%;
   background-attachment: fixed;
@@ -71,6 +81,13 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* ------------------------ PARALLAX SCROLL STYLING END ------------------ */
+
+
+
+
+/* ----------------------- PERSONAL INFORMATION STYLING BEGIN --------------- */
 
 .img-1 {
   background-image:
@@ -93,3 +110,5 @@ body, html {
   background-color: white;
   font-size: 30px;
 }
+
+/* ----------------------- PERSONAL INFORMATION STYLING END ----------------- */ 
