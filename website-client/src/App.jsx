@@ -16,11 +16,11 @@ class App extends Component {
       email: "Shassen89@gmail.com",
     },
     contact: {
-      linkedIn: 'https://www.linkedin.com/in/shawn-hassen/',
-      facebook: 'https://www.facebook.com/shawn.hassen',
+      linkedIn:  'https://www.linkedin.com/in/shawn-hassen/',
+      facebook:  'https://www.facebook.com/shawn.hassen',
       instagram: 'https://www.instagram.com/shawn.hassen/',
-      twitter: 'https://twitter.com/thereal_shassen',
-      github: 'https://github.com/shassen',
+      twitter:   'https://twitter.com/thereal_shassen',
+      github:    'https://github.com/shassen',
     },
     projects: {
       tff: {
@@ -59,9 +59,9 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Header info={this.state.info}/>
-        <About />
-        <Projects />
-        <Contact />
+        <About about={this.state}/>
+        <Projects projects={this.state.projects}/>
+        <Contact info={this.state.info}/>
       </div>
     );
 
