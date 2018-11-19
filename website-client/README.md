@@ -1,3 +1,21 @@
+# Shawn Hassen
+
+Hey there! Welcome to my git repo for my personal webpage. Please feel free to provide any feedback, comments, etc. 
+
+## About Me:
+
+I am a Web Developer located in New York City with a passion for Tech, guitar, sports and all sorts of things. This page serves as a collection of things I consider important. Enjoy!
+
+## Technologies:
+
+1. React
+2. W3 Schools (website) - Heavily referenced in the styling of this webpage. I highly recommend using W3 Schools as a resource if you need to learn CSS styling.
+3. Fontawesome (website) - The use of certain images and logos are from this resource.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
