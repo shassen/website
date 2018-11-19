@@ -58,7 +58,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Header info={this.state}/>
+        <Header info={this.state.info}/>
         <About />
         <Projects />
         <Contact />
